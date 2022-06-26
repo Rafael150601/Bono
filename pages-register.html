@@ -45,7 +45,7 @@
               <div class="d-flex justify-content-center py-4">
                 <a href="index.html" class="logo d-flex align-items-center w-auto">
                   <img src="assets/img/logo.png" alt="">
-                  <span class="d-none d-lg-block">Mi Cartera</span>
+                  <span class="d-none d-lg-block">Mi Bono</span>
                 </a>
               </div><!-- End Logo -->
 
@@ -58,26 +58,37 @@
                     <p class="text-center small">Ingrese sus datos personales para crear una cuenta</p>
                   </div>
 
+
                   <form class="row g-3 needs-validation" novalidate>
+
+                    <div class="col-12">
+                      <label for="yourUsername" class="form-label">Nombre de usuario</label>
+                        <input type="text" name="username" class="form-control" id="yourUsername" required>
+                        <div class="invalid-feedback">Ese nombre no es valido.</div>
+                      </div>
+
                     <div class="col-12">
                       <label for="yourName" class="form-label">Tu nombre</label>
-                      <input type="text" name="name" class="form-control" id="yourName" required>
-                      <div class="invalid-feedback">Porfavor, ingrese un nombre valido!</div>
+                        <input type="text" name="name" class="form-control" id="yourName" required>
+                        <div class="invalid-feedback">Porfavor, ingrese un nombre valido!</div>
+                    </div>
+
+                    <div class="col-12">
+                      <label for="yourApellido" class="form-label">Tu Apellido</label>
+                        <input type="text" name="apellido" class="form-control" id="yourApellido" required>
+                        <div class="invalid-feedback">Porfavor, ingrese un apellido valido!</div>
+                    </div>
+
+                    <div class="col-12">
+                      <label for="yourDireccion" class="form-label">Tu Direccion</label>
+                        <input type="text" name="direccion" class="form-control" id="yourDireccion" required>
+                        <div class="invalid-feedback">Porfavor, ingrese una direccion valida!</div>
                     </div>
 
                     <div class="col-12">
                       <label for="yourEmail" class="form-label">Tu correo electrónico</label>
                       <input type="email" name="email" class="form-control" id="yourEmail" required>
                       <div class="invalid-feedback">Porfavor, ingrese un correo valido!</div>
-                    </div>
-
-                    <div class="col-12">
-                      <label for="yourUsername" class="form-label">Nombre de usuario</label>
-                      <div class="input-group has-validation">
-                        <span class="input-group-text" id="inputGroupPrepend">@</span>
-                        <input type="text" name="username" class="form-control" id="yourUsername" required>
-                        <div class="invalid-feedback">Ese nombre no es valido.</div>
-                      </div>
                     </div>
 
                     <div class="col-12">
